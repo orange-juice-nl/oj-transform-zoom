@@ -1,17 +1,17 @@
 {
   "name": "oj-transform-zoom",
-  "version": "4.0.1",
+  "version": "1.0.0",
   "description": "transform an element to fullscreen (minus margin)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc ./src/index.ts --lib esnext,dom --declaration true --outDir ./dist --module commonjs --moduleResolution node --target es5",
-    "share": "npm upgrade && npm version patch && npm run build && npm publish --registry http://web01.oj.local:3000"
+    "share": "npm upgrade && npm version patch && npm run build && npm publish --registry https://registry.npmjs.org"
   },
   "keywords": [],
   "author": "Marius Linders @ Orange Juice<marius.linders@orange-juice.nl>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "oj-event": "^4.0.2"
+    "oj-event": "^1.0.0"
   }
 }
