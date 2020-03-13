@@ -1,6 +1,11 @@
 {
   "name": "oj-transform-zoom",
   "version": "1.0.1",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/orange-juice-nl/oj-transform-zoom.git"
+  },
+  "keywords": ["transform", "zoom", "scale"],
   "description": "transform an element to fullscreen (minus margin)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,10 +13,9 @@
     "build": "tsc ./src/index.ts --lib esnext,dom --declaration true --outDir ./dist --module commonjs --moduleResolution node --target es5",
     "share": "npm upgrade && npm version patch -force && npm run build && npm publish --registry https://registry.npmjs.org"
   },
-  "keywords": [],
   "author": "Marius Linders @ Orange Juice<marius.linders@orange-juice.nl>",
   "license": "MIT",
   "dependencies": {
-    "oj-event": "^1.0.0"
+    "oj-event": "^1.0.1"
   }
 }
