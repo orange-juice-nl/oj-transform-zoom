@@ -1,6 +1,6 @@
 # Transform Zoom
 
-[oj-transform-zoom](https://raw.githubusercontent.com/orange-juice-nl/oj-transform-zoom/master/demo.gif)
+![oj-transform-zoom](https://raw.githubusercontent.com/orange-juice-nl/oj-transform-zoom/master/demo.gif)
 
 ## Usage
 
